@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,700;1,14..32,700&display=swap");
-@import 'remixicon/fonts/remixicon.css';
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "remixicon/fonts/remixicon.css";
 
 @import "tailwindcss";
 
@@ -21,6 +21,10 @@
     font-weight: 400;
     color: #111;
   }
+}
+
+@utility nav-open {
+  right: 0;
 }
 
 /* Layout */

@@ -10,11 +10,81 @@
   <body class="">
     <header class="header fixed top-0 left-0 w-full">
       <nav class="nav container-lg flex justify-between h-header items-center">
-        <div class="nav__logo">Logo</div>
+        <div class="nav__logo">
+          <a href="/">
+            <img
+              class="max-w-40"
+              src="/src/assets/img/tesla-logos/Tesla_Wordmark_1_Black.png"
+              alt="Tesla Logo"
+              srcset=""
+            />
+          </a>
+        </div>
 
-        <div class="">2025 Impact Report</div>
+        <div id="nav-menu" class="nav__menu fixed top-header -right-full h-full w-full bg-accent duration-300">
+          <ul class="nav__list px-6 py-10 flex flex-col gap-4 uppercase text-white">
+            <li class="nav__item">
+              <a href="#" class="nav__link">Statement from the CEO</a>
+            </li>
+            <ul class="nav__sublist flex flex-col gap-2">
+              Climate & Environment
+              <li class="nav__item px-6">
+                <a href="#" class="nav__link">Energy Transition</a>
+              </li>
+              <li class="nav__item px-6">
+                <a href="#" class="nav__link">Operational Efficiency</a>
+              </li>
+              <li class="nav__item px-6">
+                <a href="#" class="nav__link">Materials Impact</a>
+              </li>
+            </ul>
+            <ul class="nav__sublist flex flex-col gap-2">
+              Circular Economy
+              <li class="nav__item px-6">
+                <a href="#" class="nav__link">Product Lifecycle</a>
+              </li>
+              <li class="nav__item px-6">
+                <a href="#" class="nav__link">Materials Innovation</a>
+              </li>
+              <li class="nav__item px-6">
+                <a href="#" class="nav__link">Waste Reduction</a>
+              </li>
+            </ul>
 
-        <div class="">8</div>
+            <ul class="nav__sublist flex flex-col gap-2">
+              People & Society
+              <li class="nav__item px-6">
+                <a href="#" class="nav__link">Workforce Development</a>
+              </li>
+              <li class="nav__item px-6">
+                <a href="#" class="nav__link">Inclusion & Diversity</a>
+              </li>
+              <li class="nav__item px-6">
+                <a href="#" class="nav__link">Social Impact & Safety</a>
+              </li>
+            </ul>
+
+            <ul class="nav__sublist flex flex-col gap-2">
+              Ethics & Governance
+              <li class="nav__item px-6">
+                <a href="#" class="nav__link">Governance Structure</a>
+              </li>
+              <li class="nav__item px-6">
+                <a href="#" class="nav__link">Ethics & Compliance</a>
+              </li>
+              <li class="nav__item px-6">
+                <a href="#" class="nav__link">Transparency & Reporting</a>
+              </li>
+            </ul>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Data & Methodology</a>
+            </li>
+          </ul>
+        </div>
+
+        <div id="nav-toggle" class="nav__toggle">
+          <i class="text-[28px] ri-menu-3-line"></i>
+        </div>
       </nav>
     </header>
 
@@ -22,7 +92,7 @@
       <!--===== Hero Section =====-->
       <section class="">
         <div class="container-md">
-          <i class="ri-arrow-down-long-line"></i>
+          <!-- <i class="ri-arrow-down-long-line"></i> -->
         </div>
       </section>
     </main>
